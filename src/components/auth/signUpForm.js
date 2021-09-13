@@ -8,7 +8,7 @@ import history from "../../history";
 class SignUpForm extends Component {
   render() {
     const { className, handleSubmit } = this.props;
-    const links = [
+    const info = [
       {
         _id: 0,
         title: "At least 6 characters",
@@ -59,7 +59,7 @@ class SignUpForm extends Component {
         <div className="sign-up-form__line"></div>
         <Field
           className="sign-up-form__login"
-          onClick={() => console.log("trying to submit")}
+          onClick={() => history.push("/account")}
           type="submit"
           title="Create Account"
           name="login"
@@ -77,7 +77,7 @@ class SignUpForm extends Component {
         <Details
           className="sign-up-form__details"
           title="Password Requirements"
-          links={links}
+          info={info}
         />
       </form>
     );
