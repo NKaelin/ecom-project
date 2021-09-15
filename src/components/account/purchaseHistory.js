@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import PageTitle from "../pageTitle";
+import PurchaseDetails from "./purchaseDetails";
+import Purchases from "./purchases";
 
 class PurchaseHistory extends Component {
   render() {
@@ -9,6 +11,9 @@ class PurchaseHistory extends Component {
           className="purchase-history__page-title"
           title="Purchase History"
         />
+        <Purchases className="purchase-history__purchases" />
+        <PurchaseDetails className="purchase-history__detail" />
+        <div className="purchase-history__border-bottom"></div>
       </div>
     );
   }
