@@ -15,6 +15,7 @@
 }
 .purchases {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, 80px);
   width: 360px;
 }
