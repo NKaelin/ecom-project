@@ -54,7 +54,7 @@ export function fetchShopProducts() {
       {
         _id: 0,
         title: "JavaScript in the Browser",
-        descripton:
+        description:
           "To find the bulk of the world's freshwater you need to trek to the poles, as 68.7% of it is encased in ice caps, permanent snow, and glaciers.",
         price: 1.99,
         belongsTo: [0, 1],
@@ -62,7 +62,7 @@ export function fetchShopProducts() {
       {
         _id: 1,
         title: "Graph Database",
-        descripton:
+        description:
           "To find the bulk of the world's freshwater you need to trek to the poles, as 68.7% of it is encased in ice caps, permanent snow, and glaciers.",
         price: 1.99,
         belongsTo: [0, 3],
@@ -70,7 +70,7 @@ export function fetchShopProducts() {
       {
         _id: 2,
         title: "Full Stack Development",
-        descripton:
+        description:
           "To find the bulk of the world's freshwater you need to trek to the poles, as 68.7% of it is encased in ice caps, permanent snow, and glaciers.",
         price: 2.99,
         belongsTo: [0, 1, 4],
@@ -78,7 +78,7 @@ export function fetchShopProducts() {
       {
         _id: 3,
         title: "User Interface Design",
-        descripton:
+        description:
           "To find the bulk of the world's freshwater you need to trek to the poles, as 68.7% of it is encased in ice caps, permanent snow, and glaciers.",
         price: 2.99,
         belongsTo: [0, 2],
@@ -86,7 +86,7 @@ export function fetchShopProducts() {
       {
         _id: 4,
         title: "Javascript Development",
-        descripton:
+        description:
           "Polar bear fur is actually clear, and their skin is black. Baby flamingos are born grey, not pink. Anteaters have no teeth.",
         price: 3.29,
         belongsTo: [0, 1],
@@ -94,7 +94,7 @@ export function fetchShopProducts() {
       {
         _id: 5,
         title: "User Experience Design",
-        descripton:
+        description:
           "Polar bear fur is actually clear, and their skin is black. Baby flamingos are born grey, not pink. Anteaters have no teeth.",
         price: 1.99,
         belongsTo: [0, 2],
@@ -102,7 +102,7 @@ export function fetchShopProducts() {
       {
         _id: 6,
         title: "Advanced OOP",
-        descripton:
+        description:
           "Polar bear fur is actually clear, and their skin is black. Baby flamingos are born grey, not pink. Anteaters have no teeth.",
         price: 2.49,
         belongsTo: [0, 6],
@@ -110,7 +110,7 @@ export function fetchShopProducts() {
       {
         _id: 7,
         title: "Graph Database",
-        descripton:
+        description:
           "To find the bulk of the world's freshwater you need to trek to the poles, as 68.7% of it is encased in ice caps, permanent snow, and glaciers.",
         price: 1.99,
         belongsTo: [0, 3],
