@@ -3,6 +3,13 @@ import { connect } from "react-redux";
 import * as actions from "../../actions";
 
 class NavBar extends Component {
+  handleOnClick = (link) => {
+    this.props.changeNavbarActive(link._id);
+    if (this.props.onClick) {
+      this.props.onClick(link._id);
+    }
+  };
+
   render() {
     return (
       <div className="navBar">
@@ -11,7 +18,7 @@ class NavBar extends Component {
             <a
               className={`navbar_link ${link.active ? "green-text" : ""}`}
               key={index}
-              onClick={() => this.props.changeNavbarActive(link._id)}
+              onClick={() => this.handleOnClick(link)}
             >
               {link.title}
             </a>
@@ -23,9 +30,10 @@ class NavBar extends Component {
 }
 
 function mapStateToProps(state) {
-  const { navbarLinks } = state.headerNavbar;
+  const { navbarLinks, onClick } = state.headerNavbar;
   return {
     navbarLinks,
+    onClick,
   };
 }
 
